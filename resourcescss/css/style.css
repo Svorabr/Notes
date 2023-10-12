@@ -17,7 +17,7 @@ nav {
 }
  
 a {
-    color:white;
+    color:lightgray;
     font-size: 15px;
 }
 li, h3 {
@@ -36,10 +36,47 @@ h2 {
 section h2 {
     background-color: rgba(255, 255, 255, 0.3);
     letter-spacing: 40px;
+} 
+
+.line {
+    display:flex;
+    justify-content: space-around;
+        
+}
+.line h4 {
+    text-align: center;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    border-bottom: 1px solid orange;
+    padding: 5px;
+}
+
+.boxes table {
+    width: 100%;
+    font-size: 15px;
 }
 
 
+.boxes {
+    background-color: #333;
+    border-left: 2px solid orange;
+    width: 100%; 
+    margin: 1px 0px; 
+    color: lightgray;
+    padding: 10px 10px 10px 10px;
+} 
 
+table {
+    border-collapse: collapse; 
+}
 
+table, th, td {
+    border: 1px solid white;
+    font-size: 12px;
+}
 
+th {
+    padding: 0px 35px;
 
+}
