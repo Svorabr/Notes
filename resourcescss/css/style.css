@@ -1,7 +1,6 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: gray;
-
 }
 h1 {
     text-align: center;
@@ -9,13 +8,13 @@ h1 {
     font-weight: 500;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.3);
-    }
-   nav {
+}
+nav {
     display:flex;
     justify-content: space-around;
     background-color: #333;
     padding: 10px -0px;
-    }
+}
  
 a {
     color:white;
@@ -23,15 +22,24 @@ a {
 }
 li, h3 {
     color: lightgray;
-    
 }
- h3 {
+h3 {
     font-size: 20px;
-    border-left: 2px solid white;
+    border-left: 2px solid orange;
     padding: 0px 0px 20px 20px;
     margin: 0px -60px 0px 0px;
- }
-header {
-   
 }
+
+h2 {
+    text-align: center;
+} 
+section h2 {
+    background-color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 40px;
+}
+
+
+
+
+
 
