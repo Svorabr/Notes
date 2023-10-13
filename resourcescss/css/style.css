@@ -5,7 +5,7 @@ body {
 h1 {
     text-align: center;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.3);
 }
@@ -55,6 +55,7 @@ section h2 {
 .boxes table {
     width: 100%;
     font-size: 15px;
+    margin-top: 10px;
 }
 
 
@@ -80,3 +81,6 @@ th {
     padding: 0px 35px;
 
 }
+ td {
+    padding:5px;
+ }
