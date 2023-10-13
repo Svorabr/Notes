@@ -14,8 +14,8 @@ h1 {
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0.4);
-    color: rgb(53, 53, 53);
+    background-color: rgba(255, 255, 255, 0.55);
+    color: rgb(0, 0, 0);
 }
 nav {
     display:flex;
